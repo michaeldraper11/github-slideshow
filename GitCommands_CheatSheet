@@ -1,0 +1,19 @@
+git clone [REPO URL HERE] (clones repository to local machine)
+git branch (shows branches)
+git branch [NEW BRANCH HERE] (creates a new branch)
+git push --set-upstream origin [LOCAL BRANCH NAME HERE] (pushes local branch to GitHub)
+git checkout [BRANCH NAME HERE] (check out the branch)
+gid add [filehere] (stage the new/modified file for a future commit)
+git commit -m "MESSAGE HERE" (groups the changes into a commit that you can push to GitHub)
+git push (pushes the new commit to GitHub)
+--If a pull request is satisfied for the changes...
+git checkout [MAIN BRANCH NAME HERE] (check out the branch you want to merge into)
+git merge [NEW BRANCH NAME HERE] (merges your changes onto the main branch that you just checked out)
+git push (pushes the merge history to GitHub)
+git branch -d [BRANCH YOU WANT TO DELETE HERE]
+--Delete the remote branch too from GitHub
+
+
+--Other stuff
+git fetch (see if there are remote changes to make on local)
+git pull (get most recent remote repository updates locally for the branch you have checked out)
